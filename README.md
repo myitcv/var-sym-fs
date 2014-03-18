@@ -1,7 +1,7 @@
 
 # ** IMPORTANT **
 
-This code is unmainted and more significantly, does not work. It is here for historical purposes only.
+This code is unmaintained and more significantly, does not work. It is here for historical purposes only.
 
 ## var-sym-fs
 
@@ -25,9 +25,13 @@ with the command:
 GO_VERSION=go1.2.1 ls /home/myitcv/go
 ```
 
-would list the contents of `/home/myitcv/.gos/go1.2.1`. 
+would list the contents of `/home/myitcv/.gos/go1.2.1`.
 
-Furthermore (and this is potentially the most powerful use case), `PATH`, `GOPATH` etc could be defined to include paths that are variant symlinks. This would do away with the need for [`gvm`](https://github.com/moovweb/gvm), [`rbenv`](https://github.com/sstephenson/rbenv) and other such version managers. Indeed it would also do away with the need for many package managers (slight caveat here because there are some important use cases `var-sym-fs` would not handle that `gvm pkgset` does, for example local `pkgset`'s)
+Furthermore (and this is potentially the most powerful use case), `PATH`, `GOPATH` etc could be defined to include paths
+that are variant symlinks. This would do away with the need for [`gvm`](https://github.com/moovweb/gvm),
+[`rbenv`](https://github.com/sstephenson/rbenv) and other such version managers. Indeed it would also do away with the
+need for many package managers (slight caveat here because there are some important use cases `var-sym-fs` would not
+handle that `gvm pkgset` does, for example local `pkgset`'s)
 
 
 # Status
