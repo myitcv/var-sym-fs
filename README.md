@@ -1,4 +1,9 @@
-# var-sym-fs
+
+# ** IMPORTANT **
+
+This code is unmainted and more significantly, does not work. It is here for historical purposes only.
+
+## var-sym-fs
 
 A very basic and rough implementation of [variant symlinks](https://wiki.freebsd.org/200808DevSummit?action=AttachFile&do=get&target=variant-symlinks-for-freebsd.pdf) using [`go-fuse`](https://github.com/hanwen/go-fuse)
 
